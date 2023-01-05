@@ -1,0 +1,61 @@
+.mylearning {
+  display: flex;
+  justify-content: space-between;
+  margin: 1%;
+  div {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  a {
+    color: blue;
+    font-size: smaller;
+  }
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+}
+
+.mylearningcourse{
+    display: flex;
+    justify-content: space-around;
+
+    div{
+        display: flex;
+        justify-content: center;
+        background-image: url('../../../assets/images/backgroundimgMylearning.webp');
+        width: 23%; 
+        border: 1px solid rgb(141, 141, 141);
+
+        .iconmylearing{ background-color: rgb(193, 26, 26);
+            padding: 13% 4%;
+            flex:30%;
+            color: rgb(255, 255, 255);
+            font-size: xx-large;
+            
+        }
+
+        .mylearningcourse-details{ background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column; 
+            flex: 80%; 
+            padding: 2%;          
+}
+    }
+}
+
+
+.myleaningbottom{ display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1%;
+    margin: 2% 1%;
+
+    .myleaningbottom-button { display: flex; 
+    a{ 
+        button{height: 2rem; }
+        .dismiss{background-color: black; color: white; border: 1px solid grey; 
+            height: 2rem; margin: 0 0 0 1rem;}
+    }
+    }
+}
