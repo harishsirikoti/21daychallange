@@ -1,0 +1,27 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-top-style: outset;
+
+  .left-arrow {
+    background-color: rgba(0, 0, 0, 0.376);
+    font-size: 1rem;
+    padding: 0.5%;
+    margin: 0 0% 0 0;
+  }
+  .right-arrow {
+    background-color: rgba(0, 0, 0, 0.376);
+    font-size: 1rem;
+    padding: 0.5%;
+    margin: 0 0 0 0;
+    
+  }
+
+  .imagslide {
+    width: 100%;
+    margin: 0 0 0 0%;
+    
+  }
+}

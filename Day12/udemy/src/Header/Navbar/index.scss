@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+
+    .development{
+        margin: 0 1% ;
+        .deve-menu{
+            display: none;
+            justify-content: center;
+            position:absolute;
+            left: 0;
+            background-color: rgb(6, 6, 6);
+            width: 100%;
+            color: white;
+            font-weight: bolder;
+            margin: 0 0;
+            div{
+                margin: 1% 1%;
+            }
+            div:hover{
+                display: block  ;
+                background-color: rgb(165, 165, 165);
+                padding: 1% 1%;
+            }
+        }
+
+    }
+    .development:hover{
+        margin: 0 1%;
+        .deve-menu{
+            display: flex;
+            
+        }
+
+    }
+    .business{
+        margin: 0 1%;
+        .business-menu{
+            display: none;
+            justify-content: center;
+            position:absolute;
+            left: 0;
+            background-color: rgb(6, 6, 6);
+            width: 100%;
+            color: white;
+            font-weight: bolder;
+            margin: 0 0;
+            div{
+                margin: 1% 1%;
+            }
+            div:hover{
+                display: block  ;
+                background-color: rgb(165, 165, 165);
+                padding: 1% 1%;
+            }
+        }
+
+    }
+    .business:hover{
+        margin: 0 1%;
+        .business-menu{
+            display: flex;
+            
+        }
+
+    }
+    .finance{
+        margin: 0 1%;
+        .finance-menu{
+            display: none;
+            justify-content: center;
+            position:absolute;
+            left: 0;
+            background-color: rgb(6, 6, 6);
+            width: 100%;
+            color: white;
+            font-weight: bolder;
+            margin: 0 0;
+            div{
+                margin: 1% 1%;
+            }
+            div:hover{
+                display: block  ;
+                background-color: rgb(165, 165, 165);
+                padding: 1% 1%;
+            }
+        }
+
+    }
+    .finance:hover{
+        margin: 0 1%;
+        .finance-menu{
+            display: flex;
+            
+        }
+
+    }
+}
